@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Sanad | Software Developer</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my-avatar.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Ahmed Sanad" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ahmed Sanad">Ahmed Sanad</h1>
+
+          <p class="title">Flutter developer</p>
+        </div>
+
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ahmeddsanad@proton.me" class="contact-link">ahmeddsanad@proton.me</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+201007333728" class="contact-link">+201007333728</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-11-29">Nov 29, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Maadi, Cairo, Egypt</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100009495265588" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/ahmeddsanad?s=21&t=OQGxAuCBsKRn696MMijRfQ" target="_blank"  class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Ahmeddsanad/" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/+201007333728" target="_blank" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume PDF</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link onclick="downloadResume(this)">
+              Resume Download
+            </button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-resume-btn>
+              Resume Download
+            </button>
+          </li>
+          
+          
+          
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Flutter Developer from Cairo, Egypt, working in Mobile Application development.
+            I enjoy
+            turning complex problems into simple, beautiful and intuitive designs.
+          </p>
+
+          <p>
+            My job is to build high-performance and user-friendly Mobile applications that deliver seamless UI and
+            smooth UX. I focus on creating visually appealing, responsive, and intuitive designs while ensuring
+            functionality and efficiency. By following best practices and clean architecture, I bring your vision to
+            life with creative and scalable solutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+
+                <p class="service-item-text">
+                  Building modern, high-quality projects with clean architecture and best practices.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Background in web development, creating high-quality, responsive, and user-friendly websites.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android using Flutter.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ui-ux.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Product Designer</h4>
+
+                <p class="service-item-text">
+                  Background in UI/UX design using Figma to create intuitive and engaging interfaces.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Recommendations</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item" data-testimonials-id="eslam">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Eslam Ashraf" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Eslam Ashraf</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As Ahmed’s team leader at BATAL, I’ve seen how dedicated he is to both his work and continuous learning. He writes clean, efficient Flutter code, takes ownership of his tasks, and is always looking for ways to improve. His eagerness to grow, combined with his problem-solving skills and team-oriented mindset, makes him a valuable developer and a great colleague to work with.
+                  </p>
+                </div>
+              </div>
+            </li>
+          
+            <li class="testimonials-item" data-testimonials-id="adham">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Adham Ibrahim" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Adham Ibrahim</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Having worked with Ahmed on several projects, I have seen firsthand his outstanding technical expertise, leadership, and dedication. He consistently demonstrates strong programming skills, keen attention to detail, and a passion for learning. His commitment to delivering high-quality work and his willingness to support the team have always played a key role in the success of our projects.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Eslam Ashraf" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>
+                Eslam Ashraf
+              </h4>
+
+              <time datetime="2025-03-24">March 24, 2025</time>
+
+              <div data-modal-text>
+                <p>
+                  As Ahmed’s team leader at BATAL, I’ve seen how dedicated he is to both his work and continuous learning. He writes clean, efficient Flutter code, takes ownership of his tasks, and is always looking for ways to improve. His eagerness to grow, combined with his problem-solving skills and team-oriented mindset, makes him a valuable developer and a great colleague to work with.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+
+            
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Faculty of Computer and Artificial intelligence - Benha University</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                Graduated with a strong foundation in software development, algorithms, and problem-solving. Gained
+                hands-on experience in building applications, analytical thinking, and modern technologies. 🚀
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+
+              <span>2006 — 2007</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Flutter - Internship at ITCRC</h4>
+
+              <span>July 2023 - Aug 2023</span>
+
+              <p class="timeline-text">
+                Completed first internship as a Flutter intern during college, gaining hands-on experience in mobile app
+                development, UI design, and state management.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Flutter - internship at CODEPTION</h4>
+
+              <span>Oct 2024 - Nov 2024</span>
+
+              <p class="timeline-text">
+                Worked with a team to build a responsive Flutter web application, integrating APIs for smooth
+                functionality.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Flutter Developer at BATAL </h4>
+
+              <span>Dec 2024 - Present</span>
+
+              <p class="timeline-text">
+                Developed and enhanced a comprehensive web and mobile application for fitness coaching, supporting
+                Arabic and English. Worked on local data management using Isar and remote integration with Firebase to
+                ensure smooth functionality across platforms, enabling customizable training plans, client progress
+                tracking, and in-app messaging.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Dart</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            
+            <a href="https://drive.usercontent.google.com/u/0/uc?id=1Lne3p_R2gtUfcv18KwkBVfcyvNonqQOk&export=download" class="cv-download-btn" style="display: inline-block; margin-top: 15px; padding: 10px 25px; background: var(--bg-gradient-yellow-1); color: var(--eerie-black-1); font-size: var(--fs-6); font-weight: var(--fw-500); text-transform: uppercase; border-radius: 5px; transition: var(--transition-1);">
+              Download CV
+            </a>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <div class="skills-chips">
+            <span class="chip">Dart</span>
+            <span class="chip">Flutter</span>
+            <span class="chip">Firebase</span>
+            <span class="chip">UI/UX Design</span>
+            <span class="chip">Agile Methodologies</span>
+            <span class="chip">CI/CD</span>
+            <span class="chip">Clean Architecture</span>
+            <span class="chip">Cubit & Bloc State management</span>
+            <span class="chip">Provider State management</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">Git using Github & Bitbucket</span>
+            <span class="chip">Python</span>
+            <span class="chip">Stripe and PayPal integration</span>
+            <span class="chip">RESTful APIs</span>
+            <span class="chip">PHP</span>
+          </div>
+      </article>
+
+
+
+
+
+      
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a>
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/mobile/food-e app.jpg" alt="E-FOODE" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Mobile Application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-10-05">Oct 5, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">E-FOODE App</h3>
+
+                  <p class="blog-text">
+                    Food ordering app with Clean Architecture, Bloc, API integration, pagination, smooth performance, dynamic UI, and seamless user experience. 🍔📱🚀
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/mobile/Salla App.jpg" alt="Salla App" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Mobile Application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-12-07">Dec 7, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Salla App</h3>
+
+                  <p class="blog-text">
+                    e-commerce app with Firebase Authentication, Firestore, and Storage, featuring a User App for shopping and a Dashboard App for management. 🚀                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/mobile/notesApp.jpg" alt="Notes App" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Mobile Application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-09-08">Sep 8, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Notes App</h3>
+
+                  <p class="blog-text">
+                    A Flutter notes app with local storage using Hive, featuring a clean architecture, state management, and a responsive UI. 📝🚀
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Medical-App.jpg" alt="Medical-App" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Mobile Application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Aug 23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Health care App</h3>
+
+                  <p class="blog-text">
+                    Booking appointments, tracking health metrics, and accessing telemedicine, ensuring seamless health
+                    management. 🚑📱
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            
+
+            
+
+            <li class="blog-post-item">
+              <a >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/mobile/ChatApp.jpg" alt="ChatApp" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Mobile Application</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-08-11">Aug 11, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Chat App</h3>
+
+                  <p class="blog-text">
+                    A one-to-one chat app built with Flutter & Firebase, featuring real-time messaging, authentication, and push notifications. 🔥💬
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="blog-post-item">
+              <a >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/mobile/car rent.jpg" alt="Car Rent" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Website</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-24">May 24, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Car Showroom</h3>
+
+                  <p class="blog-text">
+                    Car showroom website with HTML & CSS, displaying vehicles with prices in a sleek, responsive layout. 🚗💰
+                </div>
+
+              </a>
+            </li>
+
+            
+
+            
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55206.38805917724!2d31.233990399999998!3d29.962814150000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145847f5b990c6b7%3A0x30a36450fd75a511!2sMaadi%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2seg!4v1710935501253!5m2!1sen!2seg"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form" data-form>
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+     
+      
+      <article class="portfolio" data-page="resume-pdf">
+
+        <header>
+          <h2 class="h2 article-title">Resume PDF</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile Applications</button>
+            </li>
+
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile Applications</button>
+              </li>
+
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mobile/ChatApp.jpg" alt="app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Chat App</h3>
+
+                <p class="project-category">Mobile Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mobile/food-e app.jpg" alt="food-e" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">E-FOODE</h3>
+
+                <p class="project-category">Mobile Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+  <!-- <script>
+    function downloadResume(button) {
+      // Open the PDF link in a new tab
+      window.open('https://drive.usercontent.google.com/u/0/uc?id=1Lne3p_R2gtUfcv18KwkBVfcyvNonqQOk&export=download');
+  
+      // Disable the button after the first click
+      button.disabled = true;
+      button.style.opacity = "0.5"; // Optional: Reduce opacity to show it's disabled
+      button.style.cursor = "not-allowed"; // Change cursor style
+    }
+  </script> -->
+
+</body>
+
+</html>
